@@ -1,0 +1,50 @@
+{
+  "name": "dac-toolkit",
+  "owner": {
+    "name": "dac-uk"
+  },
+  "metadata": {
+    "description": "Curated Claude Code plugin bundles for every dac-uk repo. Install a bundle and its plugins come with it."
+  },
+  "allowCrossMarketplaceDependenciesOn": [
+    "anthropic-plugin-directory"
+  ],
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./plugins/core",
+      "description": "Every repo: workflow discipline (Superpowers), code review, simplification, guided feature builds, security hooks, live library docs (Context7), a real browser (Playwright), Python and TypeScript language servers, git commands, CLAUDE.md upkeep and skill authoring.",
+      "category": "development"
+    },
+    {
+      "name": "ios",
+      "source": "./plugins/ios",
+      "description": "Swift and iOS repos: SourceKit-LSP code intelligence.",
+      "category": "development"
+    },
+    {
+      "name": "web",
+      "source": "./plugins/web",
+      "description": "Web apps on Vercel and Supabase: deployment, AI SDK and Postgres skills plus their MCP servers.",
+      "category": "development"
+    },
+    {
+      "name": "agents",
+      "source": "./plugins/agents",
+      "description": "Building with Claude: Agent SDK apps, MCP servers and Claude Code plugins.",
+      "category": "development"
+    },
+    {
+      "name": "security",
+      "source": "./plugins/security",
+      "description": "Deep, verified vulnerability scanning with patches you choose to apply.",
+      "category": "development"
+    },
+    {
+      "name": "aws",
+      "source": "./plugins/aws",
+      "description": "AWS infrastructure and services: CDK, CloudFormation, ECS, Lambda, IAM, databases and the AWS MCP server.",
+      "category": "development"
+    }
+  ]
+}

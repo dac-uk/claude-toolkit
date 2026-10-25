@@ -1,0 +1,11 @@
+{
+  "name": "ios",
+  "version": "1.0.0",
+  "description": "Swift and iOS repos: SourceKit-LSP code intelligence.",
+  "author": {
+    "name": "dac-uk"
+  },
+  "dependencies": [
+    "swift-lsp-anthropics@anthropic-plugin-directory"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Web apps on Vercel and Supabase: deployment, AI SDK and Postgres skills plus their MCP servers.",
+  "author": {
+    "name": "dac-uk"
+  },
+  "dependencies": [
+    "vercel@anthropic-plugin-directory",
+    "supabase@anthropic-plugin-directory"
+  ]
+}

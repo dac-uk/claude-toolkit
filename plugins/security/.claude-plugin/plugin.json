@@ -1,0 +1,11 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Deep, verified vulnerability scanning with patches you choose to apply.",
+  "author": {
+    "name": "dac-uk"
+  },
+  "dependencies": [
+    "claude-security@anthropic-plugin-directory"
+  ]
+}

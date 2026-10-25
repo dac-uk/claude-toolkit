@@ -1,0 +1,23 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "Every repo: workflow discipline (Superpowers), code review, simplification, guided feature builds, security hooks, live library docs (Context7), a real browser (Playwright), Python and TypeScript language servers, git commands, CLAUDE.md upkeep and skill authoring.",
+  "author": {
+    "name": "dac-uk"
+  },
+  "dependencies": [
+    "superpowers@anthropic-plugin-directory",
+    "frontend-design@anthropic-plugin-directory",
+    "context7@anthropic-plugin-directory",
+    "playwright@anthropic-plugin-directory",
+    "code-review-anthropics@anthropic-plugin-directory",
+    "code-simplifier@anthropic-plugin-directory",
+    "feature-dev@anthropic-plugin-directory",
+    "security-guidance@anthropic-plugin-directory",
+    "commit-commands@anthropic-plugin-directory",
+    "claude-md-management@anthropic-plugin-directory",
+    "skill-creator@anthropic-plugin-directory",
+    "pyright-lsp@anthropic-plugin-directory",
+    "typescript-lsp@anthropic-plugin-directory"
+  ]
+}

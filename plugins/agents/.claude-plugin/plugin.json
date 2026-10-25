@@ -1,0 +1,13 @@
+{
+  "name": "agents",
+  "version": "1.0.0",
+  "description": "Building with Claude: Agent SDK apps, MCP servers and Claude Code plugins.",
+  "author": {
+    "name": "dac-uk"
+  },
+  "dependencies": [
+    "agent-sdk-dev@anthropic-plugin-directory",
+    "mcp-server-dev@anthropic-plugin-directory",
+    "plugin-dev@anthropic-plugin-directory"
+  ]
+}

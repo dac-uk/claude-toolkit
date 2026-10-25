@@ -1,0 +1,11 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "description": "AWS infrastructure and services: CDK, CloudFormation, ECS, Lambda, IAM, databases and the AWS MCP server.",
+  "author": {
+    "name": "dac-uk"
+  },
+  "dependencies": [
+    "aws-core@anthropic-plugin-directory"
+  ]
+}
